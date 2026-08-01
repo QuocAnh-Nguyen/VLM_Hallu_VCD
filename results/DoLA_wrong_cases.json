@@ -1,0 +1,4952 @@
+[
+  {
+    "question_id": 8,
+    "image": "COCO_val2014_000000210789.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 17,
+    "image": "COCO_val2014_000000429109.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 21,
+    "image": "COCO_val2014_000000211674.jpg",
+    "question": "Is there a potted plant in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 23,
+    "image": "COCO_val2014_000000211674.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 26,
+    "image": "COCO_val2014_000000458338.jpg",
+    "question": "Is there a bus in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 30,
+    "image": "COCO_val2014_000000458338.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 35,
+    "image": "COCO_val2014_000000283412.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 36,
+    "image": "COCO_val2014_000000283412.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 39,
+    "image": "COCO_val2014_000000265719.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 41,
+    "image": "COCO_val2014_000000265719.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 42,
+    "image": "COCO_val2014_000000265719.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 43,
+    "image": "COCO_val2014_000000461331.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 67,
+    "image": "COCO_val2014_000000353180.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 72,
+    "image": "COCO_val2014_000000353180.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 77,
+    "image": "COCO_val2014_000000239444.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 88,
+    "image": "COCO_val2014_000000219622.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 91,
+    "image": "COCO_val2014_000000300368.jpg",
+    "question": "Is there a knife in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 99,
+    "image": "COCO_val2014_000000482476.jpg",
+    "question": "Is there a remote in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 110,
+    "image": "COCO_val2014_000000157084.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 121,
+    "image": "COCO_val2014_000000336872.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 123,
+    "image": "COCO_val2014_000000336872.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 132,
+    "image": "COCO_val2014_000000075591.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 133,
+    "image": "COCO_val2014_000000516916.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 135,
+    "image": "COCO_val2014_000000516916.jpg",
+    "question": "Is there a mouse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 138,
+    "image": "COCO_val2014_000000516916.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 145,
+    "image": "COCO_val2014_000000218224.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 149,
+    "image": "COCO_val2014_000000218224.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 164,
+    "image": "COCO_val2014_000000140583.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 172,
+    "image": "COCO_val2014_000000421455.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 179,
+    "image": "COCO_val2014_000000288639.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 189,
+    "image": "COCO_val2014_000000063953.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 192,
+    "image": "COCO_val2014_000000063953.jpg",
+    "question": "Is there a bench in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 195,
+    "image": "COCO_val2014_000000526321.jpg",
+    "question": "Is there a remote in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 197,
+    "image": "COCO_val2014_000000526321.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 199,
+    "image": "COCO_val2014_000000042190.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 209,
+    "image": "COCO_val2014_000000553165.jpg",
+    "question": "Is there a boat in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 215,
+    "image": "COCO_val2014_000000170517.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 217,
+    "image": "COCO_val2014_000000498759.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 225,
+    "image": "COCO_val2014_000000360600.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 229,
+    "image": "COCO_val2014_000000031773.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 235,
+    "image": "COCO_val2014_000000500257.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 241,
+    "image": "COCO_val2014_000000574057.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 248,
+    "image": "COCO_val2014_000000456178.jpg",
+    "question": "Is there a bus in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 256,
+    "image": "COCO_val2014_000000565941.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 259,
+    "image": "COCO_val2014_000000485564.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 265,
+    "image": "COCO_val2014_000000454642.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 279,
+    "image": "COCO_val2014_000000424792.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 285,
+    "image": "COCO_val2014_000000329717.jpg",
+    "question": "Is there a suitcase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 287,
+    "image": "COCO_val2014_000000329717.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 297,
+    "image": "COCO_val2014_000000480122.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 308,
+    "image": "COCO_val2014_000000437347.jpg",
+    "question": "Is there a baseball bat in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 311,
+    "image": "COCO_val2014_000000437347.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 318,
+    "image": "COCO_val2014_000000354229.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 321,
+    "image": "COCO_val2014_000000538236.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 324,
+    "image": "COCO_val2014_000000538236.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 327,
+    "image": "COCO_val2014_000000236865.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 329,
+    "image": "COCO_val2014_000000236865.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 341,
+    "image": "COCO_val2014_000000060213.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 353,
+    "image": "COCO_val2014_000000084447.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 355,
+    "image": "COCO_val2014_000000192660.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 357,
+    "image": "COCO_val2014_000000192660.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 365,
+    "image": "COCO_val2014_000000575755.jpg",
+    "question": "Is there a broccoli in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 369,
+    "image": "COCO_val2014_000000354088.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 371,
+    "image": "COCO_val2014_000000354088.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 377,
+    "image": "COCO_val2014_000000311327.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 385,
+    "image": "COCO_val2014_000000350898.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 387,
+    "image": "COCO_val2014_000000350898.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 396,
+    "image": "COCO_val2014_000000170365.jpg",
+    "question": "Is there a vase in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 399,
+    "image": "COCO_val2014_000000021645.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 406,
+    "image": "COCO_val2014_000000528905.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 434,
+    "image": "COCO_val2014_000000564336.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 435,
+    "image": "COCO_val2014_000000564336.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 439,
+    "image": "COCO_val2014_000000231589.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 443,
+    "image": "COCO_val2014_000000231589.jpg",
+    "question": "Is there a couch in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 447,
+    "image": "COCO_val2014_000000465275.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 455,
+    "image": "COCO_val2014_000000083275.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 469,
+    "image": "COCO_val2014_000000332625.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 479,
+    "image": "COCO_val2014_000000332025.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 483,
+    "image": "COCO_val2014_000000318204.jpg",
+    "question": "Is there a horse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 484,
+    "image": "COCO_val2014_000000318204.jpg",
+    "question": "Is there a dog in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 489,
+    "image": "COCO_val2014_000000455157.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 493,
+    "image": "COCO_val2014_000000069189.jpg",
+    "question": "Is there a bird in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 502,
+    "image": "COCO_val2014_000000199764.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 513,
+    "image": "COCO_val2014_000000175506.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 517,
+    "image": "COCO_val2014_000000353096.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 519,
+    "image": "COCO_val2014_000000353096.jpg",
+    "question": "Is there a mouse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 521,
+    "image": "COCO_val2014_000000353096.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 526,
+    "image": "COCO_val2014_000000207205.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 533,
+    "image": "COCO_val2014_000000427113.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 553,
+    "image": "COCO_val2014_000000190185.jpg",
+    "question": "Is there a dog in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 558,
+    "image": "COCO_val2014_000000190185.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 561,
+    "image": "COCO_val2014_000000209755.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 566,
+    "image": "COCO_val2014_000000227227.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 587,
+    "image": "COCO_val2014_000000257327.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 595,
+    "image": "COCO_val2014_000000105732.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 617,
+    "image": "COCO_val2014_000000580294.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 621,
+    "image": "COCO_val2014_000000374061.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 627,
+    "image": "COCO_val2014_000000094944.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 631,
+    "image": "COCO_val2014_000000572075.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 637,
+    "image": "COCO_val2014_000000387098.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 646,
+    "image": "COCO_val2014_000000382670.jpg",
+    "question": "Is there a motorcycle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 647,
+    "image": "COCO_val2014_000000382670.jpg",
+    "question": "Is there a potted plant in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 659,
+    "image": "COCO_val2014_000000204360.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 660,
+    "image": "COCO_val2014_000000204360.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 667,
+    "image": "COCO_val2014_000000237767.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 671,
+    "image": "COCO_val2014_000000237767.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 695,
+    "image": "COCO_val2014_000000366141.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 696,
+    "image": "COCO_val2014_000000366141.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 701,
+    "image": "COCO_val2014_000000093946.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 705,
+    "image": "COCO_val2014_000000032610.jpg",
+    "question": "Is there a bench in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 715,
+    "image": "COCO_val2014_000000226097.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 717,
+    "image": "COCO_val2014_000000226097.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 719,
+    "image": "COCO_val2014_000000226097.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 725,
+    "image": "COCO_val2014_000000538054.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 726,
+    "image": "COCO_val2014_000000538054.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 728,
+    "image": "COCO_val2014_000000114710.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 733,
+    "image": "COCO_val2014_000000113701.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 735,
+    "image": "COCO_val2014_000000113701.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 749,
+    "image": "COCO_val2014_000000482275.jpg",
+    "question": "Is there a vase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 757,
+    "image": "COCO_val2014_000000044520.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 759,
+    "image": "COCO_val2014_000000044520.jpg",
+    "question": "Is there a train in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 765,
+    "image": "COCO_val2014_000000518177.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 773,
+    "image": "COCO_val2014_000000203479.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 779,
+    "image": "COCO_val2014_000000551881.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 783,
+    "image": "COCO_val2014_000000369541.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 787,
+    "image": "COCO_val2014_000000007795.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 793,
+    "image": "COCO_val2014_000000303099.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 802,
+    "image": "COCO_val2014_000000147289.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 804,
+    "image": "COCO_val2014_000000147289.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 827,
+    "image": "COCO_val2014_000000327532.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 829,
+    "image": "COCO_val2014_000000167110.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 839,
+    "image": "COCO_val2014_000000300876.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 842,
+    "image": "COCO_val2014_000000443240.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 843,
+    "image": "COCO_val2014_000000443240.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 848,
+    "image": "COCO_val2014_000000288042.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 849,
+    "image": "COCO_val2014_000000288042.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 857,
+    "image": "COCO_val2014_000000270609.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 863,
+    "image": "COCO_val2014_000000208028.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 868,
+    "image": "COCO_val2014_000000314992.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 873,
+    "image": "COCO_val2014_000000424642.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 881,
+    "image": "COCO_val2014_000000467176.jpg",
+    "question": "Is there a couch in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 885,
+    "image": "COCO_val2014_000000087435.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 887,
+    "image": "COCO_val2014_000000087435.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 908,
+    "image": "COCO_val2014_000000567886.jpg",
+    "question": "Is there a bear in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 923,
+    "image": "COCO_val2014_000000551908.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 927,
+    "image": "COCO_val2014_000000102906.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 930,
+    "image": "COCO_val2014_000000102906.jpg",
+    "question": "Is there a stop sign in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 935,
+    "image": "COCO_val2014_000000327771.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 941,
+    "image": "COCO_val2014_000000280734.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 943,
+    "image": "COCO_val2014_000000111817.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 945,
+    "image": "COCO_val2014_000000111817.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 951,
+    "image": "COCO_val2014_000000379162.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 965,
+    "image": "COCO_val2014_000000419453.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 968,
+    "image": "COCO_val2014_000000358255.jpg",
+    "question": "Is there a bear in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 969,
+    "image": "COCO_val2014_000000358255.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 977,
+    "image": "COCO_val2014_000000178078.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 981,
+    "image": "COCO_val2014_000000197219.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 984,
+    "image": "COCO_val2014_000000197219.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 987,
+    "image": "COCO_val2014_000000460931.jpg",
+    "question": "Is there a cake in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 989,
+    "image": "COCO_val2014_000000460931.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 991,
+    "image": "COCO_val2014_000000506483.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 994,
+    "image": "COCO_val2014_000000506483.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 996,
+    "image": "COCO_val2014_000000506483.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 997,
+    "image": "COCO_val2014_000000468934.jpg",
+    "question": "Is there a banana in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1001,
+    "image": "COCO_val2014_000000468934.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1003,
+    "image": "COCO_val2014_000000189694.jpg",
+    "question": "Is there a sink in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1007,
+    "image": "COCO_val2014_000000189694.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1011,
+    "image": "COCO_val2014_000000273450.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1014,
+    "image": "COCO_val2014_000000273450.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1027,
+    "image": "COCO_val2014_000000153300.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1035,
+    "image": "COCO_val2014_000000506178.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1040,
+    "image": "COCO_val2014_000000249720.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1049,
+    "image": "COCO_val2014_000000205206.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1051,
+    "image": "COCO_val2014_000000018150.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1060,
+    "image": "COCO_val2014_000000303534.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1065,
+    "image": "COCO_val2014_000000278771.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1069,
+    "image": "COCO_val2014_000000134075.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1072,
+    "image": "COCO_val2014_000000134075.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1073,
+    "image": "COCO_val2014_000000134075.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1080,
+    "image": "COCO_val2014_000000227204.jpg",
+    "question": "Is there an oven in the imange?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1083,
+    "image": "COCO_val2014_000000124629.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1085,
+    "image": "COCO_val2014_000000124629.jpg",
+    "question": "Is there a tennis racket in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1101,
+    "image": "COCO_val2014_000000316700.jpg",
+    "question": "Is there a broccoli in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1107,
+    "image": "COCO_val2014_000000040361.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1110,
+    "image": "COCO_val2014_000000040361.jpg",
+    "question": "Is there a baseball glove in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1111,
+    "image": "COCO_val2014_000000378873.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1113,
+    "image": "COCO_val2014_000000378873.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1125,
+    "image": "COCO_val2014_000000011241.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1128,
+    "image": "COCO_val2014_000000011241.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1133,
+    "image": "COCO_val2014_000000525667.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1139,
+    "image": "COCO_val2014_000000246145.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1143,
+    "image": "COCO_val2014_000000313162.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1159,
+    "image": "COCO_val2014_000000275863.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1167,
+    "image": "COCO_val2014_000000327038.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1169,
+    "image": "COCO_val2014_000000327038.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1171,
+    "image": "COCO_val2014_000000513136.jpg",
+    "question": "Is there a pizza in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1173,
+    "image": "COCO_val2014_000000513136.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1174,
+    "image": "COCO_val2014_000000513136.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1178,
+    "image": "COCO_val2014_000000184338.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1179,
+    "image": "COCO_val2014_000000184338.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1181,
+    "image": "COCO_val2014_000000184338.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1185,
+    "image": "COCO_val2014_000000175437.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1193,
+    "image": "COCO_val2014_000000498100.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1201,
+    "image": "COCO_val2014_000000396338.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1209,
+    "image": "COCO_val2014_000000124930.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1210,
+    "image": "COCO_val2014_000000124930.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1211,
+    "image": "COCO_val2014_000000124930.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1212,
+    "image": "COCO_val2014_000000124930.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1216,
+    "image": "COCO_val2014_000000112664.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1221,
+    "image": "COCO_val2014_000000377879.jpg",
+    "question": "Is there a train in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1223,
+    "image": "COCO_val2014_000000377879.jpg",
+    "question": "Is there a bed in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1225,
+    "image": "COCO_val2014_000000377401.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1233,
+    "image": "COCO_val2014_000000049473.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1235,
+    "image": "COCO_val2014_000000049473.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1239,
+    "image": "COCO_val2014_000000153865.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1247,
+    "image": "COCO_val2014_000000383185.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1249,
+    "image": "COCO_val2014_000000388983.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1251,
+    "image": "COCO_val2014_000000388983.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1255,
+    "image": "COCO_val2014_000000295377.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1261,
+    "image": "COCO_val2014_000000034773.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1271,
+    "image": "COCO_val2014_000000244455.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1273,
+    "image": "COCO_val2014_000000303652.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1277,
+    "image": "COCO_val2014_000000303652.jpg",
+    "question": "Is there a knife in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1280,
+    "image": "COCO_val2014_000000098493.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1284,
+    "image": "COCO_val2014_000000098493.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1287,
+    "image": "COCO_val2014_000000201148.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1295,
+    "image": "COCO_val2014_000000307166.jpg",
+    "question": "Is there an oven in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1297,
+    "image": "COCO_val2014_000000313034.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1300,
+    "image": "COCO_val2014_000000313034.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1301,
+    "image": "COCO_val2014_000000313034.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1305,
+    "image": "COCO_val2014_000000355342.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1313,
+    "image": "COCO_val2014_000000333237.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1319,
+    "image": "COCO_val2014_000000526368.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1327,
+    "image": "COCO_val2014_000000287035.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1332,
+    "image": "COCO_val2014_000000287035.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1341,
+    "image": "COCO_val2014_000000120648.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1343,
+    "image": "COCO_val2014_000000120648.jpg",
+    "question": "Is there a suitcase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1346,
+    "image": "COCO_val2014_000000186709.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1357,
+    "image": "COCO_val2014_000000505542.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1367,
+    "image": "COCO_val2014_000000115636.jpg",
+    "question": "Is there a cow in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1372,
+    "image": "COCO_val2014_000000280810.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1379,
+    "image": "COCO_val2014_000000037900.jpg",
+    "question": "Is there a knife in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1413,
+    "image": "COCO_val2014_000000200583.jpg",
+    "question": "Is there a boat in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1416,
+    "image": "COCO_val2014_000000200583.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1427,
+    "image": "COCO_val2014_000000100215.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1433,
+    "image": "COCO_val2014_000000017379.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1436,
+    "image": "COCO_val2014_000000511622.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1437,
+    "image": "COCO_val2014_000000511622.jpg",
+    "question": "Is there a scissors in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1441,
+    "image": "COCO_val2014_000000407386.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1445,
+    "image": "COCO_val2014_000000407386.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1452,
+    "image": "COCO_val2014_000000039516.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1463,
+    "image": "COCO_val2014_000000115626.jpg",
+    "question": "Is there a parking meter in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1464,
+    "image": "COCO_val2014_000000115626.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1465,
+    "image": "COCO_val2014_000000391735.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1467,
+    "image": "COCO_val2014_000000391735.jpg",
+    "question": "Is there a toothbrush in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1477,
+    "image": "COCO_val2014_000000463542.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1478,
+    "image": "COCO_val2014_000000463542.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1486,
+    "image": "COCO_val2014_000000377352.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1488,
+    "image": "COCO_val2014_000000377352.jpg",
+    "question": "Is there a bus in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1490,
+    "image": "COCO_val2014_000000302405.jpg",
+    "question": "Is there a skis in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1503,
+    "image": "COCO_val2014_000000384040.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1507,
+    "image": "COCO_val2014_000000023731.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1517,
+    "image": "COCO_val2014_000000463640.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1519,
+    "image": "COCO_val2014_000000365822.jpg",
+    "question": "Is there a potted plant in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1529,
+    "image": "COCO_val2014_000000524979.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1534,
+    "image": "COCO_val2014_000000070813.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1539,
+    "image": "COCO_val2014_000000318209.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1543,
+    "image": "COCO_val2014_000000016775.jpg",
+    "question": "Is there a bird in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1549,
+    "image": "COCO_val2014_000000015338.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1551,
+    "image": "COCO_val2014_000000015338.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1553,
+    "image": "COCO_val2014_000000015338.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1561,
+    "image": "COCO_val2014_000000408757.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1565,
+    "image": "COCO_val2014_000000408757.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1591,
+    "image": "COCO_val2014_000000485485.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1593,
+    "image": "COCO_val2014_000000485485.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1597,
+    "image": "COCO_val2014_000000309371.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1602,
+    "image": "COCO_val2014_000000309371.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1615,
+    "image": "COCO_val2014_000000214244.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1631,
+    "image": "COCO_val2014_000000183965.jpg",
+    "question": "Is there a hot dog in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1642,
+    "image": "COCO_val2014_000000259755.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1643,
+    "image": "COCO_val2014_000000259755.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1647,
+    "image": "COCO_val2014_000000281028.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1650,
+    "image": "COCO_val2014_000000281028.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1657,
+    "image": "COCO_val2014_000000442809.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1659,
+    "image": "COCO_val2014_000000442809.jpg",
+    "question": "Is there a cake in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1662,
+    "image": "COCO_val2014_000000442809.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1665,
+    "image": "COCO_val2014_000000482829.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1673,
+    "image": "COCO_val2014_000000097994.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1675,
+    "image": "COCO_val2014_000000246999.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1677,
+    "image": "COCO_val2014_000000246999.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1679,
+    "image": "COCO_val2014_000000246999.jpg",
+    "question": "Is there a couch in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1680,
+    "image": "COCO_val2014_000000246999.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1697,
+    "image": "COCO_val2014_000000348524.jpg",
+    "question": "Is there a skis in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1699,
+    "image": "COCO_val2014_000000108189.jpg",
+    "question": "Is there a sandwich in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1707,
+    "image": "COCO_val2014_000000301575.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1717,
+    "image": "COCO_val2014_000000354976.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1722,
+    "image": "COCO_val2014_000000354976.jpg",
+    "question": "Is there a keyboard in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1723,
+    "image": "COCO_val2014_000000473199.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1725,
+    "image": "COCO_val2014_000000473199.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1729,
+    "image": "COCO_val2014_000000311759.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1748,
+    "image": "COCO_val2014_000000246199.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1751,
+    "image": "COCO_val2014_000000246199.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1758,
+    "image": "COCO_val2014_000000372009.jpg",
+    "question": "Is there a bear in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1761,
+    "image": "COCO_val2014_000000346707.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1763,
+    "image": "COCO_val2014_000000346707.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1778,
+    "image": "COCO_val2014_000000245448.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1789,
+    "image": "COCO_val2014_000000001171.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1792,
+    "image": "COCO_val2014_000000001171.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1793,
+    "image": "COCO_val2014_000000001171.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1806,
+    "image": "COCO_val2014_000000465418.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1808,
+    "image": "COCO_val2014_000000392364.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1809,
+    "image": "COCO_val2014_000000392364.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1811,
+    "image": "COCO_val2014_000000392364.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1819,
+    "image": "COCO_val2014_000000436127.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1829,
+    "image": "COCO_val2014_000000198397.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1831,
+    "image": "COCO_val2014_000000349936.jpg",
+    "question": "Is there an oven in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1832,
+    "image": "COCO_val2014_000000349936.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1843,
+    "image": "COCO_val2014_000000474741.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1845,
+    "image": "COCO_val2014_000000474741.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1853,
+    "image": "COCO_val2014_000000286342.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1855,
+    "image": "COCO_val2014_000000093948.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1857,
+    "image": "COCO_val2014_000000093948.jpg",
+    "question": "Is there a mouse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1859,
+    "image": "COCO_val2014_000000093948.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1873,
+    "image": "COCO_val2014_000000147165.jpg",
+    "question": "Is there a sink in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1877,
+    "image": "COCO_val2014_000000147165.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1888,
+    "image": "COCO_val2014_000000312406.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1891,
+    "image": "COCO_val2014_000000515820.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1895,
+    "image": "COCO_val2014_000000515820.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1911,
+    "image": "COCO_val2014_000000459680.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1916,
+    "image": "COCO_val2014_000000196462.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1917,
+    "image": "COCO_val2014_000000196462.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1918,
+    "image": "COCO_val2014_000000196462.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1919,
+    "image": "COCO_val2014_000000196462.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1931,
+    "image": "COCO_val2014_000000356424.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1935,
+    "image": "COCO_val2014_000000505335.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1938,
+    "image": "COCO_val2014_000000505335.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1947,
+    "image": "COCO_val2014_000000384970.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1951,
+    "image": "COCO_val2014_000000572260.jpg",
+    "question": "Is there a wine glass in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1954,
+    "image": "COCO_val2014_000000572260.jpg",
+    "question": "Is there a bear in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1955,
+    "image": "COCO_val2014_000000572260.jpg",
+    "question": "Is there an apple in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1959,
+    "image": "COCO_val2014_000000418471.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1967,
+    "image": "COCO_val2014_000000379404.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1973,
+    "image": "COCO_val2014_000000044801.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1979,
+    "image": "COCO_val2014_000000293564.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 1982,
+    "image": "COCO_val2014_000000452297.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1990,
+    "image": "COCO_val2014_000000543393.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 1995,
+    "image": "COCO_val2014_000000172648.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2001,
+    "image": "COCO_val2014_000000308907.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2007,
+    "image": "COCO_val2014_000000263594.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2023,
+    "image": "COCO_val2014_000000091954.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2027,
+    "image": "COCO_val2014_000000091954.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2042,
+    "image": "COCO_val2014_000000560064.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2047,
+    "image": "COCO_val2014_000000348469.jpg",
+    "question": "Is there a bird in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2053,
+    "image": "COCO_val2014_000000167724.jpg",
+    "question": "Is there an oven in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2054,
+    "image": "COCO_val2014_000000167724.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2057,
+    "image": "COCO_val2014_000000167724.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2071,
+    "image": "COCO_val2014_000000541783.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2079,
+    "image": "COCO_val2014_000000445200.jpg",
+    "question": "Is there a broccoli in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2087,
+    "image": "COCO_val2014_000000433574.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2099,
+    "image": "COCO_val2014_000000114941.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2101,
+    "image": "COCO_val2014_000000493753.jpg",
+    "question": "Is there a remote in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2103,
+    "image": "COCO_val2014_000000493753.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2115,
+    "image": "COCO_val2014_000000382617.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2121,
+    "image": "COCO_val2014_000000467887.jpg",
+    "question": "Is there a mouse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2131,
+    "image": "COCO_val2014_000000125524.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2132,
+    "image": "COCO_val2014_000000125524.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2139,
+    "image": "COCO_val2014_000000196053.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2147,
+    "image": "COCO_val2014_000000156704.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2153,
+    "image": "COCO_val2014_000000088507.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2155,
+    "image": "COCO_val2014_000000279499.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2159,
+    "image": "COCO_val2014_000000279499.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2173,
+    "image": "COCO_val2014_000000501652.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2189,
+    "image": "COCO_val2014_000000332908.jpg",
+    "question": "Is there an oven in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2194,
+    "image": "COCO_val2014_000000372819.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2205,
+    "image": "COCO_val2014_000000023084.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2213,
+    "image": "COCO_val2014_000000545353.jpg",
+    "question": "Is there a sink in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2222,
+    "image": "COCO_val2014_000000579415.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2237,
+    "image": "COCO_val2014_000000355256.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2240,
+    "image": "COCO_val2014_000000304819.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2243,
+    "image": "COCO_val2014_000000304819.jpg",
+    "question": "Is there a laptop in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2245,
+    "image": "COCO_val2014_000000240434.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2247,
+    "image": "COCO_val2014_000000240434.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2251,
+    "image": "COCO_val2014_000000199940.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2253,
+    "image": "COCO_val2014_000000199940.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2258,
+    "image": "COCO_val2014_000000549390.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2263,
+    "image": "COCO_val2014_000000235541.jpg",
+    "question": "Is there a giraffe in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2269,
+    "image": "COCO_val2014_000000068418.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2294,
+    "image": "COCO_val2014_000000390157.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2301,
+    "image": "COCO_val2014_000000298633.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2308,
+    "image": "COCO_val2014_000000579277.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2310,
+    "image": "COCO_val2014_000000579277.jpg",
+    "question": "Is there a broccoli in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2316,
+    "image": "COCO_val2014_000000042685.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2336,
+    "image": "COCO_val2014_000000405762.jpg",
+    "question": "Is there a bus in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2341,
+    "image": "COCO_val2014_000000343967.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2355,
+    "image": "COCO_val2014_000000044993.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2357,
+    "image": "COCO_val2014_000000044993.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2375,
+    "image": "COCO_val2014_000000325347.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2381,
+    "image": "COCO_val2014_000000256906.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2385,
+    "image": "COCO_val2014_000000061507.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2387,
+    "image": "COCO_val2014_000000061507.jpg",
+    "question": "Is there a suitcase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2388,
+    "image": "COCO_val2014_000000061507.jpg",
+    "question": "Is there a handbag in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2389,
+    "image": "COCO_val2014_000000084410.jpg",
+    "question": "Is there a vase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2393,
+    "image": "COCO_val2014_000000084410.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2405,
+    "image": "COCO_val2014_000000328301.jpg",
+    "question": "Is there a fire hydrant in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2407,
+    "image": "COCO_val2014_000000307262.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2409,
+    "image": "COCO_val2014_000000307262.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2411,
+    "image": "COCO_val2014_000000307262.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2417,
+    "image": "COCO_val2014_000000573796.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2429,
+    "image": "COCO_val2014_000000472375.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2433,
+    "image": "COCO_val2014_000000446651.jpg",
+    "question": "Is there a motorcycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2436,
+    "image": "COCO_val2014_000000446651.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2437,
+    "image": "COCO_val2014_000000267684.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2443,
+    "image": "COCO_val2014_000000238029.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2446,
+    "image": "COCO_val2014_000000238029.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2447,
+    "image": "COCO_val2014_000000238029.jpg",
+    "question": "Is there a fork in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2463,
+    "image": "COCO_val2014_000000447787.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2468,
+    "image": "COCO_val2014_000000458325.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2473,
+    "image": "COCO_val2014_000000388237.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2481,
+    "image": "COCO_val2014_000000038645.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2489,
+    "image": "COCO_val2014_000000071738.jpg",
+    "question": "Is there a motorcycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2499,
+    "image": "COCO_val2014_000000378751.jpg",
+    "question": "Is there a couch in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2506,
+    "image": "COCO_val2014_000000073182.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2507,
+    "image": "COCO_val2014_000000073182.jpg",
+    "question": "Is there a bicycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2511,
+    "image": "COCO_val2014_000000246928.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2519,
+    "image": "COCO_val2014_000000528136.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2526,
+    "image": "COCO_val2014_000000209290.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2560,
+    "image": "COCO_val2014_000000478736.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2561,
+    "image": "COCO_val2014_000000478736.jpg",
+    "question": "Is there a stop sign in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2567,
+    "image": "COCO_val2014_000000156282.jpg",
+    "question": "Is there an umbrella in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2571,
+    "image": "COCO_val2014_000000052689.jpg",
+    "question": "Is there a bench in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2574,
+    "image": "COCO_val2014_000000052689.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2575,
+    "image": "COCO_val2014_000000516601.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2589,
+    "image": "COCO_val2014_000000142056.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2598,
+    "image": "COCO_val2014_000000299986.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2603,
+    "image": "COCO_val2014_000000521643.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2607,
+    "image": "COCO_val2014_000000574454.jpg",
+    "question": "Is there a surfboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2615,
+    "image": "COCO_val2014_000000415727.jpg",
+    "question": "Is there a bench in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2619,
+    "image": "COCO_val2014_000000222118.jpg",
+    "question": "Is there a suitcase in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2623,
+    "image": "COCO_val2014_000000514292.jpg",
+    "question": "Is there a book in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2637,
+    "image": "COCO_val2014_000000016451.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2653,
+    "image": "COCO_val2014_000000283168.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2659,
+    "image": "COCO_val2014_000000405205.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2661,
+    "image": "COCO_val2014_000000405205.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2667,
+    "image": "COCO_val2014_000000123570.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2673,
+    "image": "COCO_val2014_000000365317.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2680,
+    "image": "COCO_val2014_000000224155.jpg",
+    "question": "Is there a sink in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2685,
+    "image": "COCO_val2014_000000191964.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2691,
+    "image": "COCO_val2014_000000265472.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2693,
+    "image": "COCO_val2014_000000265472.jpg",
+    "question": "Is there an orange in the imange?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2695,
+    "image": "COCO_val2014_000000550514.jpg",
+    "question": "Is there a snowboard in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2703,
+    "image": "COCO_val2014_000000163814.jpg",
+    "question": "Is there a motorcycle in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2710,
+    "image": "COCO_val2014_000000505933.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2713,
+    "image": "COCO_val2014_000000318550.jpg",
+    "question": "Is there a traffic light in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2719,
+    "image": "COCO_val2014_000000367528.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2721,
+    "image": "COCO_val2014_000000367528.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2729,
+    "image": "COCO_val2014_000000252911.jpg",
+    "question": "Is there a boat in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2741,
+    "image": "COCO_val2014_000000050627.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2745,
+    "image": "COCO_val2014_000000233426.jpg",
+    "question": "Is there a potted plant in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2747,
+    "image": "COCO_val2014_000000233426.jpg",
+    "question": "Is there a dining table in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2752,
+    "image": "COCO_val2014_000000372817.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2769,
+    "image": "COCO_val2014_000000092624.jpg",
+    "question": "Is there a cow in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2783,
+    "image": "COCO_val2014_000000079213.jpg",
+    "question": "Is there a remote in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2785,
+    "image": "COCO_val2014_000000465346.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2786,
+    "image": "COCO_val2014_000000465346.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2792,
+    "image": "COCO_val2014_000000514248.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2793,
+    "image": "COCO_val2014_000000514248.jpg",
+    "question": "Is there a person in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2795,
+    "image": "COCO_val2014_000000514248.jpg",
+    "question": "Is there a horse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2799,
+    "image": "COCO_val2014_000000355776.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2802,
+    "image": "COCO_val2014_000000355776.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2805,
+    "image": "COCO_val2014_000000575355.jpg",
+    "question": "Is there a bench in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2818,
+    "image": "COCO_val2014_000000559547.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2819,
+    "image": "COCO_val2014_000000559547.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2823,
+    "image": "COCO_val2014_000000230175.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2843,
+    "image": "COCO_val2014_000000555538.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2848,
+    "image": "COCO_val2014_000000264155.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2851,
+    "image": "COCO_val2014_000000125572.jpg",
+    "question": "Is there a truck in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2853,
+    "image": "COCO_val2014_000000125572.jpg",
+    "question": "Is there a clock in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2867,
+    "image": "COCO_val2014_000000045685.jpg",
+    "question": "Is there a tennis racket in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2869,
+    "image": "COCO_val2014_000000434179.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2871,
+    "image": "COCO_val2014_000000434179.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2881,
+    "image": "COCO_val2014_000000069863.jpg",
+    "question": "Is there a car in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2887,
+    "image": "COCO_val2014_000000041180.jpg",
+    "question": "Is there a backpack in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2893,
+    "image": "COCO_val2014_000000429913.jpg",
+    "question": "Is there a baseball glove in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2897,
+    "image": "COCO_val2014_000000429913.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2899,
+    "image": "COCO_val2014_000000554002.jpg",
+    "question": "Is there a chair in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2905,
+    "image": "COCO_val2014_000000141278.jpg",
+    "question": "Is there a tv in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2907,
+    "image": "COCO_val2014_000000141278.jpg",
+    "question": "Is there a mouse in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2910,
+    "image": "COCO_val2014_000000141278.jpg",
+    "question": "Is there a bottle in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2920,
+    "image": "COCO_val2014_000000534942.jpg",
+    "question": "Is there a couch in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2945,
+    "image": "COCO_val2014_000000468997.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2955,
+    "image": "COCO_val2014_000000323752.jpg",
+    "question": "Is there a sports ball in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2959,
+    "image": "COCO_val2014_000000003845.jpg",
+    "question": "Is there a spoon in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  },
+  {
+    "question_id": 2962,
+    "image": "COCO_val2014_000000003845.jpg",
+    "question": "Is there a knife in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2966,
+    "image": "COCO_val2014_000000122962.jpg",
+    "question": "Is there a cup in the image?",
+    "ground_truth": "no",
+    "prediction_raw": "Yes",
+    "pred_label": "yes",
+    "error_type": "False Positive (Object Hallucination)",
+    "explanation": "Model asserted object presence when the object is absent from the image."
+  },
+  {
+    "question_id": 2989,
+    "image": "COCO_val2014_000000361430.jpg",
+    "question": "Is there a bowl in the image?",
+    "ground_truth": "yes",
+    "prediction_raw": "No",
+    "pred_label": "no",
+    "error_type": "False Negative (Missed Object)",
+    "explanation": "Model failed to detect an object that is present in the image."
+  }
+]

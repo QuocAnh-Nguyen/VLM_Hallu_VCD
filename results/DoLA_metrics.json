@@ -1,0 +1,12 @@
+{
+  "total_samples": 3000,
+  "accuracy": 83.5,
+  "precision": 90.23,
+  "recall": 75.13,
+  "f1_score": 81.99,
+  "yes_ratio": 41.63,
+  "true_positives": 1127,
+  "true_negatives": 1378,
+  "false_positives_hallucinations": 122,
+  "false_negatives_missed": 373
+}

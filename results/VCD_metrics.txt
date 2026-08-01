@@ -1,0 +1,14 @@
+========================================
+KẾT QUẢ ĐÁNH GIÁ (EVALUATION METRICS)
+========================================
+Total valid questions : 3000
+Accuracy              : 0.8003
+Precision             : 0.8239
+Recall                : 0.7640
+F1 Score              : 0.7928
+----------------------------------------
+True Positives (TP)   : 1146
+True Negatives (TN)   : 1255
+False Positives (FP)  : 245 (Ảo giác)
+False Negatives (FN)  : 354
+========================================
