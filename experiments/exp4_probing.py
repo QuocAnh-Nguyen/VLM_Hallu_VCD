@@ -204,7 +204,7 @@ def run_experiment(args):
     # ---- Probe Direction Analysis ----
     # Train probes on the final layer and compare directions
     print("\n--- Probe Direction Alignment Analysis ---")
-    lm_head_weight = bundle.model.lm_head.weight.float().cpu()
+    lm_head_weight = bundle.model.lm_head.weight.float().detach().cpu()
     yes_no_direction = (lm_head_weight[yes_id] - lm_head_weight[no_id]).numpy()
     yes_no_direction = yes_no_direction / (np.linalg.norm(yes_no_direction) + 1e-8)
 
